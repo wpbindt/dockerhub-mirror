@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -eo pipefail
+
+docker pull localhost:5000/library/$1
